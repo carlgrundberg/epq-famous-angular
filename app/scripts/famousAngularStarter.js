@@ -4,7 +4,7 @@ angular.module('famousAngularStarter',
   ['ngAnimate', 'ngCookies',
     'ngTouch', 'ngSanitize',
     'ngResource', 'ui.router',
-    'famous.angular' ])
+    'famous.angular', 'epServices' ])
   .config(function ($stateProvider, $urlRouterProvider) {
     $stateProvider
       .state('home', {
